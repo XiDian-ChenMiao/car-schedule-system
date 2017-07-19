@@ -1,0 +1,27 @@
+CarScheduleSystem 项目名称
+	DialogForms 对话框目录
+		BiggerRunQueueForm.cs 运行队列弹出框
+		BiggerWaitQueueForm.cs 等待队列弹出框
+	HelperUtils 项目所需工具类目录
+		GridViewHelper.cs 处理GridView的工具类
+		QueueHelper.cs 处理队列的工具类
+	Models 项目中实体目录
+		BaseSchedule.cs 调度超类
+		BJ2XNPersonFactory.cs 宝鸡到西安方向的进站人数产生工厂实现类
+		XN2BJPersonFactory.cs 西安到宝鸡方向的进站人数产生工厂实现类
+		CarModel.cs 车型信息超类
+		ICarModel.cs 车型名称配置接口
+		ICarStatus.cs 车辆状态配置接口
+		IJoinQueueStrategy.cs 合并队列的策略接口
+		IPersonFactory.cs 产生进站人员的工厂接口
+		IScheduleMethod.cs 调度方法接口
+		ISystemConfig.cs 系统配置接口
+		JoinQueueByDistanceToDestination.cs 根据距离终点的距离合并队列策略实现类
+		JoinQueueByStartEngineTime.cs 根据发车时间合并队列的策略实现类
+		Person.cs 进站人员封装类
+		VoVCar.cs 沃尔沃车型的信息类
+		YWKCar.cs 依维柯车型的信息类
+		XN2BJSchedule.cs 西安到宝鸡方向调度类
+		BJ2XNSchedule.cs 宝鸡到西安方向调度类
+	MainCarScheduleForm.cs 主界面显示
+	Program.cs 程序启动入口
